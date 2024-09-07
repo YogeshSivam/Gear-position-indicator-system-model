@@ -1,6 +1,6 @@
 /*
  * File:   gear_indicator.c
- * Author: Tyler Durden
+ * Author: Yogesh S
  *
  * Created on 25 May, 2024, 7:02 AM
  */
