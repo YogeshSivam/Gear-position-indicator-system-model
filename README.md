@@ -19,25 +19,25 @@ Developed a system to display the gear position on an LCD, ensuring accurate gea
 3. 16X2 LCD
 4. Push Button
 
-#process
+#process 
 MUST REFER DATA SHEETS BEFORE SETTING UP AND PROGRAMMING
--Simulation
+- Simulation
 1. Install Simulation software and design the circuit the way you want the pins are connected and configure the settings.
--Programming
+- Programming
 1. Install the IDE and create  a new project and create a file as main.c.
 2. set the configuration bits.
 3. compile and run the project.
 4. Verify whether the .hex file is created.
 5. upload the .hex file into the circuit design for both transmission and receiving controller.
 6. Check the simulation works properly.
--Interfacing with hardware
+- Interfacing with hardware
 1. Interface the two controllers by connecting the UART pins on both.
 2. Inteface the 16x2 LCD in PORTD as we programmed.
 3. Connect the push buttons using jumper wires in PORTA as we programmed.
 4. Connect the power supply.
 
-#Usage
--Gained the knowledge of programming the peripherals of 8-bit controller and hands on experience.
--It is used to learn the UART protocol which is used to intialize the serial communication from one controller to another.
--Understanding the fundamentals of LCD by sending the data through parallel communication and programmed some commands like (configure the LCD to use 8-bit, 4- bit, 1 line, 2 line, Display, Cursor, Force cursor to begin based on the address).
--It can be developed as a project for students to enhance their skills in embedded systems. 
+#Usage 
+- Gained the knowledge of programming the peripherals of 8-bit controller and hands on experience.
+- It is used to learn the UART protocol which is used to intialize the serial communication from one controller to another.
+- Understanding the fundamentals of LCD by sending the data through parallel communication and programmed some commands like (configure the LCD to use 8-bit, 4- bit, 1 line, 2 line, Display, Cursor, Force cursor to begin based on the address).
+- It can be developed as a project for students to enhance their skills in embedded systems. 
