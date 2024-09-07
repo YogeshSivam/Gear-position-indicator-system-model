@@ -1,12 +1,12 @@
 # Gear-position-indicator-system-model
 Developed a system to display the gear position on an LCD, ensuring accurate gear detection and reliable data transmission using UART communication protocol with 8-bit PIC Microcontroller.
 
-#Table of contents
--[Requirements] (#Requirements)
--[Process] (#Process)
--[usage] (#Usage)
+# Table of contents
+- [Requirements] (# Requirements)
+- [Process] (# Process)
+- [Usage] (# Usage)
 
-#Requirements
+## Requirements
 - Data sheet
 1. Controller - [PIC16F887] (https://ww1.microchip.com/downloads/en/DeviceDoc/41291D.pdf)
 2. Display - [16X2 LCD] (https://www.alldatasheet.com/category/index.jsp?sSearchword=16x2%20lcd%20datasheet)
@@ -19,7 +19,7 @@ Developed a system to display the gear position on an LCD, ensuring accurate gea
 3. 16X2 LCD
 4. Push Button
 
-#process 
+## Process
 MUST REFER DATA SHEETS BEFORE SETTING UP AND PROGRAMMING
 - Simulation
 1. Install Simulation software and design the circuit the way you want the pins are connected and configure the settings.
@@ -36,7 +36,7 @@ MUST REFER DATA SHEETS BEFORE SETTING UP AND PROGRAMMING
 3. Connect the push buttons using jumper wires in PORTA as we programmed.
 4. Connect the power supply.
 
-#Usage 
+## Usage
 - Gained the knowledge of programming the peripherals of 8-bit controller and hands on experience.
 - It is used to learn the UART protocol which is used to intialize the serial communication from one controller to another.
 - Understanding the fundamentals of LCD by sending the data through parallel communication and programmed some commands like (configure the LCD to use 8-bit, 4- bit, 1 line, 2 line, Display, Cursor, Force cursor to begin based on the address).
